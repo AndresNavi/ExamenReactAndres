@@ -9,9 +9,9 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `ExamenReactAndresnv`,
-    description: `Examen final de React`,
-    author: `@AndresNavi`,
+    title: `ExamenReactAndres`,
+    description: `Examen final de React de Andres Navarro Villanueva.`,
+    author: `@andresNavi`,
     siteUrl: `https://github.com/andresNavi`,
   },
   plugins: [
@@ -23,6 +23,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`,
+      },
+    },
+    `gatsby-transformer-json`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

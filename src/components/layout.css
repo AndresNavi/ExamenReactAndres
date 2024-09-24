@@ -20,8 +20,8 @@
   --fuente-principal: Roboto, sans-serif;
   --fuente-secundaria: Montserrat, sans-serif;
   /* Tamaño texto */
-  --Titulo-principal: 24px bold;
-  --Titulo-secundario: 20px medium;
+  --Titulo-principal: 24px;
+  --Titulo-secundario: 20px;
   --texto-regular: 16px;
-  --texto-secundario: 14px;
+  --texto-mini: 14px;
 }

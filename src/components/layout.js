@@ -34,9 +34,9 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
+          © {new Date().getFullYear()} &middot; Hecho por
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <p>Andrés Navarro</p>
         </footer>
       </div>
     </>
